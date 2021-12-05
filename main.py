@@ -10,7 +10,7 @@ def gmail(message):
     s.starttls()
 
     # Authentication
-    s.login("hackathonatndc@gmail.com", "dbprqyvzrnwklxpx")
+    s.login("hackathonatndc@gmail.com", "$app-pass")
 
     # sending the mail
     s.sendmail ("hackathonatndc@gmail.com", a, message)
